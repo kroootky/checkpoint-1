@@ -14,6 +14,3 @@ def average_of_first_x_odd_numbers(x,start=0):
         return avg
     else:
         raise ValueError('Numbers count parameter must be greather than zero')
-        
-        
-print(average_of_first_x_odd_numbers(5,start=0))
